@@ -1,0 +1,36 @@
+:root {
+  --dark-green: #064e3b;
+  --faint-green: #a7f3d0;
+}
+body {
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.container {
+  padding: 100px;
+  background: var(--dark-green);
+  color: white;
+}
+check-button#hover {
+  color: aqua;
+}
+#output table,
+th,
+td {
+  padding: 0.2rem;
+  color: var(--dark-green);
+  background-color: var(--faint-green);
+  border: 2px solid var(--dark-green);
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  min-width: 450px;
+  overflow: auto;
+}
+input {
+  margin: 12px 0px;
+}
